@@ -1,0 +1,52 @@
+body {
+  border: 1px #c6c6c6 solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  width: 320px;
+  height: 320px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box-details {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid;
+  outline: #c6c6c6;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: auto;
+  background-color: #21618c;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:active {
+  background-color: tomato;
+}
+
+.tax-value {
+  font-weight: 900;
+}
+
+input[type="number"] {
+  font-size: 20px;
+  width: 180px;
+}
+
+input[type="number"]:focus {
+  background-color: yellow;
+}
+
+.box-container {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
