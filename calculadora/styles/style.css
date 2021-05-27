@@ -1,0 +1,68 @@
+body {
+  border: 1px #c6c6c6 solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  height: 320px;
+  width: 360px;
+}
+
+.box-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  animation: pulse infinite 3s;
+  background-color: #21618c;
+  border: 1px solid #21618c;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 20px;
+  outline: #c6c6c6;
+}
+
+button:active {
+  background-color: #ff3f34;
+  border: solid 1px #ff3f34;
+}
+
+.tax-value {
+  font-weight: 900;
+}
+
+input[type="number"] {
+  font-size: 20px;
+  width: 180px;
+}
+
+input[type="number"]:focus {
+  background-color: rgba(18, 34, 173, 0.164);
+}
+
+.box-container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #21618c;
+  }
+  
+  70% {
+    box-shadow: 0 0 0 10px rgba(8, 8, 36, 0);
+  }
+  
+  100% {
+    box-shadow: 0 0 0 0 rgba(8, 8, 36, 0);
+  }
+}
